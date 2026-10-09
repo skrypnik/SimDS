@@ -11,7 +11,7 @@ TableView {
     property real titleWidth: 320.0
     property real valueWidth: 160.0
 
-    width: 480.0 + SimControl.Spacing._01px; height: rows * SimControl.Size._32px + rows * rowSpacing
+    width: titleWidth + valueWidth + SimControl.Spacing._01px; height: rows * SimControl.Size._32px + rows * rowSpacing
 
     columnSpacing: SimControl.Spacing._01px; rowSpacing: SimControl.Spacing._01px
 

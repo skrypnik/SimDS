@@ -9,7 +9,7 @@ Item {
     property alias input: input
     property alias about: about
 
-    width: 200.0; height: column.height + about.height + SimControl.Spacing._08px
+    width: 200.0; height: column.height + about.height
 
     Column {
 
